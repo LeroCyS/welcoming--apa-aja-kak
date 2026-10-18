@@ -1,0 +1,5 @@
+@extends('errors.layout')
+@section('title', 'Akses dibatasi')
+@section('code', 'Kode 403')
+@section('heading', 'Halaman ini bukan untukmu')
+@section('message', 'Maaf, kamu tidak punya akses ke halaman ini. Kalau menurutmu ini keliru, coba masuk dengan akun yang sesuai.')

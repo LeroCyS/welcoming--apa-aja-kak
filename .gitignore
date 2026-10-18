@@ -1,0 +1,50 @@
+# Dependensi & hasil build
+/vendor
+/node_modules
+/public/build
+/public/hot
+/public/storage
+
+# Lingkungan & rahasia
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+auth.json
+
+# Data lokal (database, upload, log, cache)
+*.sqlite
+*.sql
+*.dump
+/storage/*.key
+/storage/pail
+/storage/app/private/*
+/storage/app/public/*
+/storage/logs/*
+!/storage/**/.gitignore
+
+# Testing & alat bantu
+/tests
+phpunit.xml
+.phpunit.result.cache
+/.phpunit.cache
+_ide_helper.php
+
+# Editor & sistem operasi
+/.idea
+/.vscode
+/.zed
+/.fleet
+/.nova
+/.cursor
+/.claude
+*.log
+.DS_Store
+Thumbs.db
+
+# Dokumentasi & berkas non-proyek
+*.md
+*.docx
+*.pdf
+*.zip
